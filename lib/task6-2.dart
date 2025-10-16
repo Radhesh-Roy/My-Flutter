@@ -109,7 +109,10 @@ class _ClothStoreState extends State<ClothStore> {
                         children: [
                           Expanded(
                               flex: 2,
-                              child: Image.asset("assets/Sweater01.jpg", height: 50, width: 50,)),
+                              child: Padding(
+                                padding: const EdgeInsets.all(8.0),
+                                child: Image.asset("${ProductList[index]['image']}", height: 140, width: double.infinity,),
+                              )),
                           Expanded(
                               flex: 3,
                               child: Padding(
