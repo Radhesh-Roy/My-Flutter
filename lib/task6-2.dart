@@ -106,6 +106,7 @@ class _ClothStoreState extends State<ClothStore> {
                     Card(
                       elevation: 10,
                       child: Row(
+
                         children: [
                           Expanded(
                               flex: 2,
@@ -129,6 +130,7 @@ class _ClothStoreState extends State<ClothStore> {
                                         color: Colors.green,
                                         borderRadius: BorderRadius.circular(10),
                                       ),
+
                                       alignment: Alignment.center,
                                       child: Center(
                                           child: Text(
