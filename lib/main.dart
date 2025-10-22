@@ -9,9 +9,11 @@ import 'package:myapp/task06.dart';
 import 'package:myapp/task6-2.dart';
 import 'package:myapp/U01.dart';
 
+import 'U01-2.dart';
+
 void main(){
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
-    home: LoginPage(),
+    home: Registration(),
   ));
 }
