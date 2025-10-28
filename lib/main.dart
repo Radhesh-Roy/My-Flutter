@@ -20,6 +20,6 @@ import 'cheakbox.dart';
 void main(){
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
-    home: HomeServiceScreen(),
+    home: SalonHomeScreen(),
   ));
 }
