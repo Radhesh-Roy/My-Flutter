@@ -9,11 +9,17 @@ import 'package:myapp/task06.dart';
 import 'package:myapp/task6-2.dart';
 import 'package:myapp/U01.dart';
 
+import 'ProfileDesign.dart';
 import 'U01-2.dart';
+import 'package:myapp/U01.dart';
+
+import 'assignment01/homepage01.dart';
+import 'assignment01/homepage02.dart';
+import 'cheakbox.dart';
 
 void main(){
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
-    home: Registration(),
+    home: HomeServiceScreen(),
   ));
 }
